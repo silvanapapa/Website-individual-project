@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Wood4Life - Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/wood.png" rel="icon">
+  <link href="assets/img/wood_icon.png" rel="apple-touch-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1>Wood4Life<span>.</span></h1>
+      </a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li class="dropdown"><a href="#"><span>Prices</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="prices_exterior.html">Exterior furniture</a></li>
+              <li class="dropdown"><a href="#"><span>Interior</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a href="prices_doors.html">Doors</a></li>
+                  <li><a href="prices_stairs.html">Stairs</a></li>
+                  <li><a href="prices_interior.html">Interior furniture</a></li>
+                </ul>
+              </li>
+              <li><a href="prices_designs.html">Other designs</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+  <section id="hero" class="hero">
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Welcome to <span>Wood4Life!</span></h2>
+            <p data-aos="fade-up">At Wood4Life, we guarantee that the lifetime of the products is 4Life.</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Request an offer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url(assets/img/carousel_home/carousel5.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/carousel_home/carousel2.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/carousel_home/carousel3.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/carousel_home/carousel4.jpg)"></div>
+      <div class="carousel-item" style="background-image: url(assets/img/carousel_home/carousel1.jpg)"></div>
+
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+
+  </section>
+
+  <main id="main">
+
+    <section id="get-started" class="get-started section-bg">
+      <div class="container">
+
+        <div class="row justify-content-between gy-4">
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+              <h3>Request an offer for the design you want, especially made for you.</h3>
+              <p>We can tell for sure that among our designs, you can definitely find something that suits your needs. 
+              <p>But, if you want something special, custom-made for you, you can request an offer for you wanted design!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="fade">
+            <form action="request.php" method="post">
+              <h3>Get an offer</h3>
+              <p>Complete the form below, add a description for the wished product and email us a picture for it!</p>
+              Your Name: <input type="text" name="name"><br><br>
+              Your Email: <input type="text" name="email"><br><br>
+              Your desired product: <input type="text" name="command"><br><br>
+              <button class="btn btn-success" type="submit" value="Submit">Submit</button>
+            </form>
+          </div>
+    </section>
+
+    <section id="constructions" class="constructions">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Products</h2>
+          <p>We manufacture wood to fit everyone's needs.</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/outdoor_furniture.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Exterior furniture</h4>
+                    <p>Elegant, crafted exterior furniture made from real wood that rezists through different types of weather. The products are treated with a special solution to increase their lifetime.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/indoor_furniture.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Interior furniture</h4>
+                    <p>Custom-made interior furniture for elegant homes. If you want something special, that catches your eye, this is your product range.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/door1.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Doors</h4>
+                    <p>With fine details, our handmade doors are a statement for a luxuriant home. They are made from hard wood, so that they rezist more through time.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/staircase.jpg);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">Stairs</h4>
+                    <p>Brown, white, black or even dark brown, you can design your own staircase using our big palette of colors and variety of models.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features section-bg">
+      <div class="container" data-aos="fade-up">
+        <ul class="nav nav-tabs row  g-2 d-flex">
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+              <h4>Wood choosing process</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+              <h4>Designing the product</h4>
+            </a>
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+              <h4>Hand-crafting the product</h4>
+            </a>
+          </li>
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+              <h4>Final product</h4>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="tab-content">
+
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                <h3>The base-process: choosing the wood</h3>
+                <p class="fst-italic">
+                  We carefully choose the pieces of wood that will be used for the products. 
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> We observe the grain of the wood.</li>
+                  <li><i class="bi bi-check2-all"></i> We analyse the veneers present on it.</li>
+                  <li><i class="bi bi-check2-all"></i> We compare the colors to see of it is the right one.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/img/wood_choosing.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>Designing the product after the customer's needs and wishes</h3>
+                <p class="fst-italic">
+                  We especially design each product after hearing the customer wish.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> We come up with a design, together with the customer.</li>
+                  <li><i class="bi bi-check2-all"></i> We choose the colors and the model, so that it fits the place where the products is going to stay.</li>
+                  <li><i class="bi bi-check2-all"></i> We make sure we choose the finest details for the products.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/design.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>The process of creating the product</h3>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> We treat the wood with special solution to make it last longer.</li>
+                  <li><i class="bi bi-check2-all"></i> The wood is carefully cut, so that it will fit perfectly with the other pieces of wood.</li>
+                  <li><i class="bi bi-check2-all"></i> We dry out the wood to make the final product.</li>
+                </ul>
+                <p class="fst-italic">
+                  Hand-crafted furniture for special homes.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/crafting_products.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+                <h3>We deliver the final product as soon as possible</h3>
+                <p class="fst-italic">
+                  Before giving the product to the customer, we make sure that all the details are placed and the finite product reaches our standards.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i> We do the final touches before the customer's arrival.</li>
+                  <li><i class="bi bi-check2-all"></i> We check once more if the design is the same with the client's wish.</li>
+                  <li><i class="bi bi-check2-all"></i> We prepare the product for the delivery.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/final_product.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Testimonials</h2>
+          <p>We have asked some of our customers to give us an honest opinion about our products. More than 90% were happy about them!</p>
+        </div>
+
+        <div class="slides-2 swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/person1.jpg" class="testimonial-img" alt="">
+                  <h3>Anna Wilson</h3>
+                  <h4>Lawyer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    I couldn't find abstract designs for furniture in other places. So, when I found Wood4Life, I knew it was the best decision to choose them. I am very please with the product's quality.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/person2.jpg" class="testimonial-img" alt="">
+                  <h3>Harry Godman</h3>
+                  <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    I wanted something big and eye-catching for my new house in LA. For a few days, I searched on the internet for some designs and people that can do it, but no succes. Then, I came across Wood4Life page and I saw a chair design that made me happy. I ordered it the next day. Would definitely recommend!
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/person3.jpg" class="testimonial-img" alt="">
+                  <h3>Jena Karyle</h3>
+                  <h4>Fashion Designer</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    I was looking for new furniture for my store and I found some chairs from Wood4Life that would have been a perfect fit in my store. I talked with the owner and I even got the matching shelves made for me. I love them!
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/person4.jpg" class="testimonial-img" alt="">
+                  <h3>Matt Bradon</h3>
+                  <h4>Accountant</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    Since I opened my new office, I needed some shelves and a new desk for it. I had an idea, but nobody wanted to do it. So, I tried my luck at Wood4Life and got very surprised with the end result. Now, everyone is complimenting my office.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/person5.jpg" class="testimonial-img" alt="">
+                  <h3>Wilma Johnson</h3>
+                  <h4>Doctor</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div>
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                    In 2018 I bought a house that had a patio. It seemed pretty empty so I told myself I need to furnish it. I ordered a garden set from Wood4Life, that I designed myself and now I spend all my time on the patio. It fits perfectly the new house.
+                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>Wood4Life</h3>
+              <p>
+                556 Tyler Avenue<br>
+                Miami, Florida<br><br>
+                <strong>Phone number:</strong> 305-358-6424 <br>
+                <strong>Email:</strong> wood4life1@yahoo.com<br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
